@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e46866c-4fe4-4f7b-87ab-5c8c97c48f46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NumberListTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Paola077"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Paola077/JUnit_testing.git",
+    "accountId": "9fddcaf0-3d52-4929-bdb6-5bd6ce7752d7"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2oCV5oPhfWTcHkwbwxuNvpIkW4D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -48,7 +55,7 @@
     "JUnit.NumberListTest.test_ListOfNumberDivisiblesByTheNumberPassedByParameter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/paolaperdomo/Desktop/ProyectBackend/fizzBuzz/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
@@ -61,7 +68,17 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NumberListTest.test_ListOfNumberDivisiblesByTheNumberPassedByParameter">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest.test_whenTheNumberIsNotDivisibleByThreeAndFive_thenReturnTheNumber">
+    <configuration name="ArrayNumberTest.test_ListOfNumberDivisiblesByTheNumberPassedByParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fizzBuzz" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayNumberTest" />
+      <option name="METHOD_NAME" value="test_ListOfNumberDivisiblesByTheNumberPassedByParameter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FizzBuzzTest.test_whenTheNumberIsDivisibleByFive_thenReturnBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fizzBuzz" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,20 +119,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberListTest.test_ListOfNumberDivisiblesByTheNumberPassedByParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fizzBuzz" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NumberListTest" />
-      <option name="METHOD_NAME" value="test_ListOfNumberDivisiblesByTheNumberPassedByParameter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NumberListTest.test_ListOfNumberDivisiblesByTheNumberPassedByParameter" />
         <item itemvalue="JUnit.FizzBuzzTest.test_whenTheNumberIsNotDivisibleByThreeAndFive_thenReturnTheNumber" />
+        <item itemvalue="JUnit.ArrayNumberTest.test_ListOfNumberDivisiblesByTheNumberPassedByParameter" />
         <item itemvalue="JUnit.FizzBuzzTest.test_whenTheNumberIsDivisibleByThreeAndFive_thenReturnFizzBuzz" />
         <item itemvalue="JUnit.FizzBuzzTest.test_whenTheNumberIsDivisibleByFive_thenReturnBuzz" />
         <item itemvalue="JUnit.FizzBuzzTest.test_whenTheNumberIsDivisibleByThree_thenReturnFizz" />
