@@ -5,16 +5,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FizzBuzzTest {
    @Test
-   @DisplayName("Test si el número es divisible por 3")// Para darle una descrip al test
+   @DisplayName("Test si el número es divisible por 3")
     void test_whenTheNumberIsDivisibleByThree_thenReturnFizz(){
-       //Given "dado"
+      //Given
        FizzBuzz fizzbuzz = new FizzBuzz();
-       //When "cuando"
+      //When
        String results = fizzbuzz.checkNumber(9);
-       //Then "pues"
+      //Then
        assertEquals("Fizz", results);
-       // Primer valor: Yo espero de la función que me da fizz y
-       // result es lo que me da de verdad entonces tienen que ser los dos iguales
+
    }
 
    @Test
