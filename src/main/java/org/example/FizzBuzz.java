@@ -12,9 +12,6 @@ public class FizzBuzz {
         if(number % 5 == 0) {
             return "Buzz";
         }
-        if((number % 3 != 0) && (number % 5 != 0)) {
             return String.valueOf(number);
-        }
-            return null;
         }
     }
